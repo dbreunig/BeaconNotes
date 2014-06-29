@@ -11,6 +11,12 @@
 		0CFC4E89195F8D8F00FAF407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4E88195F8D8F00FAF407 /* AppDelegate.m */; };
 		0CFC4E8B195F8D8F00FAF407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4E8A195F8D8F00FAF407 /* Images.xcassets */; };
 		0CFC4E97195F8D8F00FAF407 /* BeaconNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4E96195F8D8F00FAF407 /* BeaconNotesTests.m */; };
+		0CFC4EA1195F8DA600FAF407 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4EA0195F8DA600FAF407 /* iPhoneStoryboard.storyboard */; };
+		0CFC4EA6195F904E00FAF407 /* lock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4EA5195F904E00FAF407 /* lock_icon.png */; };
+		0CFC4EA9195F90BB00FAF407 /* DABBeaconDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4EA8195F90BB00FAF407 /* DABBeaconDetector.m */; };
+		0CFC4EAC195F90D300FAF407 /* DABNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4EAB195F90D300FAF407 /* DABNavigationViewController.m */; };
+		0CFC4EAE195F91B600FAF407 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFC4EAD195F91B600FAF407 /* CoreBluetooth.framework */; };
+		0CFC4EB0195F91CC00FAF407 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFC4EAF195F91CC00FAF407 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,14 @@
 		0CFC4E90195F8D8F00FAF407 /* BeaconNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFC4E95195F8D8F00FAF407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CFC4E96195F8D8F00FAF407 /* BeaconNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconNotesTests.m; sourceTree = "<group>"; };
+		0CFC4EA0195F8DA600FAF407 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		0CFC4EA5195F904E00FAF407 /* lock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_icon.png; sourceTree = "<group>"; };
+		0CFC4EA7195F90BB00FAF407 /* DABBeaconDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DABBeaconDetector.h; sourceTree = "<group>"; };
+		0CFC4EA8195F90BB00FAF407 /* DABBeaconDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DABBeaconDetector.m; sourceTree = "<group>"; };
+		0CFC4EAA195F90D300FAF407 /* DABNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DABNavigationViewController.h; path = ../DABNavigationViewController.h; sourceTree = "<group>"; };
+		0CFC4EAB195F90D300FAF407 /* DABNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DABNavigationViewController.m; path = ../DABNavigationViewController.m; sourceTree = "<group>"; };
+		0CFC4EAD195F91B600FAF407 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0CFC4EAF195F91CC00FAF407 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFC4EB0195F91CC00FAF407 /* CoreLocation.framework in Frameworks */,
+				0CFC4EAE195F91B600FAF407 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +92,15 @@
 			children = (
 				0CFC4E87195F8D8F00FAF407 /* AppDelegate.h */,
 				0CFC4E88195F8D8F00FAF407 /* AppDelegate.m */,
+				0CFC4EAA195F90D300FAF407 /* DABNavigationViewController.h */,
+				0CFC4EAB195F90D300FAF407 /* DABNavigationViewController.m */,
+				0CFC4EA7195F90BB00FAF407 /* DABBeaconDetector.h */,
+				0CFC4EA8195F90BB00FAF407 /* DABBeaconDetector.m */,
+				0CFC4EA0195F8DA600FAF407 /* iPhoneStoryboard.storyboard */,
 				0CFC4E8A195F8D8F00FAF407 /* Images.xcassets */,
+				0CFC4EA5195F904E00FAF407 /* lock_icon.png */,
+				0CFC4EAF195F91CC00FAF407 /* CoreLocation.framework */,
+				0CFC4EAD195F91B600FAF407 /* CoreBluetooth.framework */,
 				0CFC4E83195F8D8E00FAF407 /* Supporting Files */,
 			);
 			path = BeaconNotes;
@@ -187,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFC4EA6195F904E00FAF407 /* lock_icon.png in Resources */,
+				0CFC4EA1195F8DA600FAF407 /* iPhoneStoryboard.storyboard in Resources */,
 				0CFC4E8B195F8D8F00FAF407 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +233,8 @@
 			files = (
 				0CFC4E89195F8D8F00FAF407 /* AppDelegate.m in Sources */,
 				0CFC4E86195F8D8F00FAF407 /* main.m in Sources */,
+				0CFC4EAC195F90D300FAF407 /* DABNavigationViewController.m in Sources */,
+				0CFC4EA9195F90BB00FAF407 /* DABBeaconDetector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BeaconNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -322,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BeaconNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
