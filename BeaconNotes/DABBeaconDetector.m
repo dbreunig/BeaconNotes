@@ -49,7 +49,7 @@
     self.locationManager            = [[CLLocationManager alloc] init];
     self.locationManager.delegate   = self;
     
-    NSUUID *uuid        = [[NSUUID alloc] initWithUUIDString:@"insert beacon UDID here"];
+    NSUUID *uuid        = [[NSUUID alloc] initWithUUIDString:self.udid];
     self.beaconRegion   = [[CLBeaconRegion alloc] initWithProximityUUID:uuid major:[@(0) shortValue] minor:[@(0) shortValue] identifier:@"drewBot"];
     self.beaconRegion.notifyOnEntry = YES;
     self.beaconRegion.notifyOnExit  = YES;
