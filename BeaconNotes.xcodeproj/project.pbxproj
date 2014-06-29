@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C6995BE196091A300973FAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C6995BD196091A300973FAE /* README.md */; };
+		0C6995C11960972E00973FAE /* DABNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6995C01960972E00973FAE /* DABNavigationViewController.m */; };
 		0CFC4E86195F8D8F00FAF407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4E85195F8D8F00FAF407 /* main.m */; };
 		0CFC4E89195F8D8F00FAF407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4E88195F8D8F00FAF407 /* AppDelegate.m */; };
 		0CFC4E8B195F8D8F00FAF407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4E8A195F8D8F00FAF407 /* Images.xcassets */; };
@@ -15,7 +16,6 @@
 		0CFC4EA1195F8DA600FAF407 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4EA0195F8DA600FAF407 /* iPhoneStoryboard.storyboard */; };
 		0CFC4EA6195F904E00FAF407 /* lock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4EA5195F904E00FAF407 /* lock_icon.png */; };
 		0CFC4EA9195F90BB00FAF407 /* DABBeaconDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4EA8195F90BB00FAF407 /* DABBeaconDetector.m */; };
-		0CFC4EAC195F90D300FAF407 /* DABNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4EAB195F90D300FAF407 /* DABNavigationViewController.m */; };
 		0CFC4EAE195F91B600FAF407 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFC4EAD195F91B600FAF407 /* CoreBluetooth.framework */; };
 		0CFC4EB0195F91CC00FAF407 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFC4EAF195F91CC00FAF407 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		0C6995BD196091A300973FAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0C6995BF1960972E00973FAE /* DABNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DABNavigationViewController.h; sourceTree = "<group>"; };
+		0C6995C01960972E00973FAE /* DABNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DABNavigationViewController.m; sourceTree = "<group>"; };
 		0CFC4E80195F8D8E00FAF407 /* BeaconNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFC4E84195F8D8E00FAF407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CFC4E85195F8D8F00FAF407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,8 +47,6 @@
 		0CFC4EA5195F904E00FAF407 /* lock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_icon.png; sourceTree = "<group>"; };
 		0CFC4EA7195F90BB00FAF407 /* DABBeaconDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DABBeaconDetector.h; sourceTree = "<group>"; };
 		0CFC4EA8195F90BB00FAF407 /* DABBeaconDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DABBeaconDetector.m; sourceTree = "<group>"; };
-		0CFC4EAA195F90D300FAF407 /* DABNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DABNavigationViewController.h; path = ../DABNavigationViewController.h; sourceTree = "<group>"; };
-		0CFC4EAB195F90D300FAF407 /* DABNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DABNavigationViewController.m; path = ../DABNavigationViewController.m; sourceTree = "<group>"; };
 		0CFC4EAD195F91B600FAF407 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		0CFC4EAF195F91CC00FAF407 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -95,8 +95,8 @@
 				0C6995BD196091A300973FAE /* README.md */,
 				0CFC4E87195F8D8F00FAF407 /* AppDelegate.h */,
 				0CFC4E88195F8D8F00FAF407 /* AppDelegate.m */,
-				0CFC4EAA195F90D300FAF407 /* DABNavigationViewController.h */,
-				0CFC4EAB195F90D300FAF407 /* DABNavigationViewController.m */,
+				0C6995BF1960972E00973FAE /* DABNavigationViewController.h */,
+				0C6995C01960972E00973FAE /* DABNavigationViewController.m */,
 				0CFC4EA7195F90BB00FAF407 /* DABBeaconDetector.h */,
 				0CFC4EA8195F90BB00FAF407 /* DABBeaconDetector.m */,
 				0CFC4EA0195F8DA600FAF407 /* iPhoneStoryboard.storyboard */,
@@ -234,10 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6995C11960972E00973FAE /* DABNavigationViewController.m in Sources */,
 				0CFC4E89195F8D8F00FAF407 /* AppDelegate.m in Sources */,
 				0CFC4E86195F8D8F00FAF407 /* main.m in Sources */,
 				0C6995BE196091A300973FAE /* README.md in Sources */,
-				0CFC4EAC195F90D300FAF407 /* DABNavigationViewController.m in Sources */,
 				0CFC4EA9195F90BB00FAF407 /* DABBeaconDetector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
