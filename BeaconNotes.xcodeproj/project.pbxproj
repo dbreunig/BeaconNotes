@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6995BE196091A300973FAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C6995BD196091A300973FAE /* README.md */; };
 		0CFC4E86195F8D8F00FAF407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4E85195F8D8F00FAF407 /* main.m */; };
 		0CFC4E89195F8D8F00FAF407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC4E88195F8D8F00FAF407 /* AppDelegate.m */; };
 		0CFC4E8B195F8D8F00FAF407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC4E8A195F8D8F00FAF407 /* Images.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6995BD196091A300973FAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0CFC4E80195F8D8E00FAF407 /* BeaconNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFC4E84195F8D8E00FAF407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CFC4E85195F8D8F00FAF407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		0CFC4E82195F8D8E00FAF407 /* BeaconNotes */ = {
 			isa = PBXGroup;
 			children = (
+				0C6995BD196091A300973FAE /* README.md */,
 				0CFC4E87195F8D8F00FAF407 /* AppDelegate.h */,
 				0CFC4E88195F8D8F00FAF407 /* AppDelegate.m */,
 				0CFC4EAA195F90D300FAF407 /* DABNavigationViewController.h */,
@@ -233,6 +236,7 @@
 			files = (
 				0CFC4E89195F8D8F00FAF407 /* AppDelegate.m in Sources */,
 				0CFC4E86195F8D8F00FAF407 /* main.m in Sources */,
+				0C6995BE196091A300973FAE /* README.md in Sources */,
 				0CFC4EAC195F90D300FAF407 /* DABNavigationViewController.m in Sources */,
 				0CFC4EA9195F90BB00FAF407 /* DABBeaconDetector.m in Sources */,
 			);
@@ -412,6 +416,7 @@
 				0CFC4E9C195F8D8F00FAF407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CFC4E9D195F8D8F00FAF407 /* Build configuration list for PBXNativeTarget "BeaconNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				0CFC4E9F195F8D8F00FAF407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
