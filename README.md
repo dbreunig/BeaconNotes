@@ -5,4 +5,4 @@ A quick proof-of-concept using a beacon to lock and unlock and application. A ke
 
 Be sure to add your beacon's UUID to the project in the DABNavigationViewController.
 
-Here's [a video demo](http://drewb.org/post/90272374828/quick-sunday-experiment-using-an-ibeacon-to).
+Here's [a video demo](http://dbreunig.tumblr.com/post/90272374828/quick-sunday-experiment-using-an-ibeacon-to).
